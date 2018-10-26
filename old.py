@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 
 import sys
-
 out_of = int(sys.argv[1])
 while 1:
     line = input()
