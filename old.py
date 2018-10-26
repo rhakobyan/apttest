@@ -7,6 +7,6 @@ while 1:
     line = input()
     total = 0
     for num in line.split(" "):
-        total += int(num)
+        total += float(num)
     print("Total: %d (%f%%)" % (total, total * (100.0 / out_of)))
 
